@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Paws</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/template/favicon.png">
+
+    <!-- Colorbox CSS -->
+    <link rel="stylesheet" href="assets/css/colorbox.css"/>
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- sekcija zaglavlje -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 py-2">
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <a class="navbar-brand font-pacifico font-size-28" href="index.html"><span class="text-orange-color">S</span>weet <span class="text-orange-color">P</span>aws</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link text-uppercase navmenu-link" href="#" data-div="#nasi-predlozi">Naši predlozi</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-uppercase navmenu-link" href="#" data-div="#o-nama">O nama</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-uppercase navmenu-link" href="#" data-div="#info" >O psima</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase navmenu-link" href="#" data-div="#galerija" >Galerija</a>
+                          </li>
+						   <li class="nav-item">
+                          <a class="nav-link text-uppercase navmenu-link" href="#" data-div="#citati">Citati</a>
+                        </li>
+						<li class="nav-item">
+                          <a class="nav-link text-uppercase navmenu-link" href="#" data-div="#kontakt">Kontakt</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+	
+    <!--slider-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        
+                        <img class="img-fluid " src="assets/img/template/cover.jpg" alt="First slide"  />
+                        
+                        <div class="carousel-caption text-center my-4 ">
+                        
+                            <h2>Stranica posvećena ljubiteljima pasa.</h2>
+                            <h3> Sve o psima na jednom mestu.</h3>
+                        
+                        </div>
+                        
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="assets/img/template/template2.jpg" alt="Second slide">
+						<div class="carousel-caption text-center my-4 ">
+                        
+                            <h2>Stranica posvećena ljubiteljima pasa.</h2>
+                            <h3> Sve o psima na jednom mestu.</h3>
+                        
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="assets/img/template/template3.jpg" alt="Third slide">
+						<div class="carousel-caption text-center my-4  ">
+                        
+                            <h2>Stranica posvećena ljubiteljima pasa.</h2>
+                            <h3> Sve o psima na jednom mestu.</h3>
+                        
+                        </div>
+                    </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+</div>
+        
+
+    <!-- sekcija predlozi -->
+    <div id="nasi-predlozi" class="container ">
+        <div class="row">
+            <div class="col-12 text-center py-5">
+                <h2>Naši predlozi</h2>
+                <hr class="naslov-linija">
+            </div>
+        </div>
+        <div class="container">
+            <div id="predlog-roditelj" >
+                <div class="predlog bg-predlog-1 ">
+                        <div class="predlog-info rounded-right pt-4">
+                            <h3 class="mb-3">Buldog</h3>
+                            <p>Buldozi su jako umiljati, vole da se maze, leže i spavaju po ceo dan i da ne izlaze iz kuće. Lenštine su, tako da ne zahtevaju preduge šetnje.</p>
+                            <a href="buldog.html">Pročitaj više</a>
+                        </div>
+                   
+                </div>
+                <div class="predlog bg-predlog-2 ">
+                        <div class="predlog-info rounded-right pt-4">
+                            <h3 class="mb-3">Mops</h3>
+                            <p>Mops je razdragan pas. Energičan je, živahan i vezan za porodicu, pas koji će vas sigurno svakodnevno nasmejati.</p>
+                            <a href="mops.html">Pročitaj više</a>
+                        </div>
+                    
+                </div>
+                <div class="predlog bg-predlog-3 " >
+                   
+                        <div class="predlog-info rounded-right pt-4">
+                            <h3 class="mb-3">Bigl</h3>
+                            <p>Bigl je mala, kompaktna i čvrsta rasa. Psi ove rase su veseli i zabavni, ali budući da je u pitanju lovačka rasa, mogu biti tvrdoglavi.</p>
+                            <a href="bigl.html">Pročitaj više</a>
+                        </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+    <!-- sekcija o nama -->
+    <div id="o-nama" class="container-fluid py-5 my-5">
+        <div class="row">
+            <div class="col-12 col-lg-6 d-flex align-items-center " data-aos="fade-right">
+                <img src="assets/img/o_nama2.jpg" alt="O nama" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center" >
+                <h2 class="mb-2 py-3 text-orange-color">O nama</h2>
+                <p class="text-justify">Šapica je web portal nastao u nameri da se na jednom mestu mogu pronaći sve neophodne, korisne i upotrebljive informacije o psima, razne zanimljivosti, kao i korisan sadržaj o negi i zdravlju nasih ljubimaca, njihovim vakcinama, bolestima i slicno. Takođe smo tu da vam ukazemo na to sta bi vaš ljubimac trebao da jede, kao i to da ukažemo na greške pri dresuri i kako je moguć da on malog psa izraste jedno poslušno i dobro biće. Za sve ljubitelje pasa mi smo tu – da vas informišemo, obaveštavamo, podstaknemo na razmišljenje, dotaknemo srca, ali i zabavimo. Kad bi životinje umele da govore, bilo bi lako, zar ne? Znali bi sve iz prve ruke. Ovako, mi govorimo umesto njih i borimo se za njih. Nastojimo da naš portal bude ispunjen bogatim sadržajem o kućnim ljubimcima, kako bi vas na pravi način informisali, od srca nasmejali, kako bi vam uspešno pomogli i ispunili svaki dan nečim novim. Jednostavnije rečeno – kako bi taj neverovatan i zadivljujući svet kućnih ljubimaca približili svima i predstavili svakom. Imate ljubimca? Na pravom ste mestu! Želite da imate ljubimca? Opet ste na pravom mestu! Svaki dan ćemo vas informisati o raznim našim predlozima, i objasniti sve o njhovim karakteritikama i da Vam pomognemo zašto je baš taj pas o kojem trenutno čitate dobar za Vas. Kao što i kažu, pas je čovekov najbolji prijatelj a mi ćemo vas uveriti u to zašto je to tako.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- sekcija info -->
+    <div id="info" class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2>O psima</h2>
+                    <hr class="naslov-linija">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3" data-aos="fade-right">
+                    <h3 class="text-orange-color text-uppercase f-size-20"><i class="fas fa-hand-holding-medical text-color-icon mr-3"></i> Nega i zdravlje</h3>
+                    <p class="mb-5 mt-3">Kao i kod ljudi, tako je i kod pasa bitna njhova higijena i zdravlje, sve potrbne zastite i vakcinacije, kao i njihovo redovno kupanje...</p>
+                    <a href="nega_pasa.html" class="read-more">Pročitaj više</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <h3 class="text-orange-color text-uppercase f-size-20"><i class="fas fa-bone text-color-icon mr-3"></i> Hrana za pse</h3>
+                    <p class="mb-5 mt-3">Zdrava ishrana ljubimaca je preduslov za njihov dug i srećan žvot. Iako vam se čini da vaš ljubimac rado jede sve što mu date...</p>
+                    <a href="hrana_za_pse.html" class="read-more">Pročitaj više</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3 ">
+                    <h3 class="text-orange-color text-uppercase f-size-20"><i class="fas fa-dog text-color-icon mr-3"></i> Dresura pasa</h3>
+                    <p class="mb-5 mt-3">Prečesto, mi pravimo iskrene greške u obuci koje rezultiraju neželjenim ponašanjem i napetim odnosom sa vašim psom...</p>
+                    <a href="dresura_pasa.html" class="read-more">Pročitaj više</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3" data-aos="fade-right">
+                    <h3 class="text-orange-color text-uppercase f-size-20"><i class="far fa-laugh text-color-icon mr-3"></i> Zanimljivosti</h3>
+                    <p class="mb-5 mt-3">Svaki pas ima jedinstven skup karakteristika. Ova voljena i divna stvorenja su fascinantni, te ima puno zanimljivih činjenica o psima...</p>
+                    <a href="zanimljivosti.html" class="read-more">Pročitaj više</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!--sekcija galerija-->
+    <div id="galerija" class="container-fluid">
+        <div class="row">
+            <div class="col-12 heading text-center py-5">
+                <h2>Galerija</h2>
+                <hr class="naslov-linija">  
+            </div>
+        </div>	
+        <div class="row"> 
+		 
+            <div class="col-12  col-sm-4 gallery-image no-padding" data-aos="fade-right">
+                <a href="assets/img/galerija/shiba_inu.jpg" class="image-popup">
+                    <img src="assets/img/galerija/shiba_inu.jpg" alt="Help" class="img-fluid" />
+                    <div class="gallery-info">
+                        <h3>Šiba inu</h3>
+                        <small>poreklo - Japan</small>
+                    </div>
+                 </a>
+            </div>
+            <div class="col-12  col-sm-4 gallery-image  no-padding" >
+                <a href="assets/img/galerija/bernese.jpg" class="image-popup">
+                    <img src="assets/img/galerija/bernese.jpg" alt="Help" class="img-fluid"/>
+                    <div class="gallery-info">
+                        <h3>Bernardinac</h3>
+                        <small>poreklo - Švajcarski Alpi</small>
+                    </div>
+             </a>
+            </div>
+            <div class="col-12  col-sm-4 gallery-image  no-padding" data-aos="fade-right">
+                <a href="assets/img/galerija/chihuahua.jpg" class="image-popup">
+                <img src="assets/img/galerija/chihuahua.jpg" alt="Help" class="img-fluid" />
+                <div class="gallery-info">
+                    <h3>Čivava</h3>
+                    <small>poreklo - Meksiko</small>
+                </div>
+             </a>
+            </div>
+			
+        </div>
+        <div class="row">
+		
+            <div class="col-12  col-sm-4  gallery-image no-padding" data-aos="fade-right">
+                <a href="assets/img/galerija/dalmatian.jpg" class="image-popup">
+                <img src="assets/img/galerija/dalmatian.jpg" alt="Help" class="img-fluid">
+                <div class="gallery-info">
+                    <h3>Dalmatinac</h3>
+                    <small>poreko - Hrvatska</small>
+                </div>
+             </a>
+            </div>
+            <div class="col-12  col-sm-4 gallery-image no-padding" >
+                <a href="assets/img/galerija/labrador.jpg" class="image-popup">
+                <img src="assets/img/galerija/labrador.jpg" alt="Help" class="img-fluid">
+                <div class="gallery-info">
+                    <h3>Labrador</h3>
+                    <small>poreklo - Kanada</small>
+                </div>
+             </a>
+            </div>
+            <div class="col-12  col-sm-4  gallery-image no-padding" data-aos="fade-right">
+                <a href="assets/img/galerija/shepherd.jpg" class="image-popup">
+                <img src="assets/img/galerija/shepherd.jpg" alt="Help" class="img-fluid">
+                <div class="gallery-info">
+                    <h3>Vučijak</h3>
+                    <small>Poreklo - Nemačka</small>
+                </div>
+             </a>
+            </div>
+			
+        </div>
+        <div class="row">
+		
+            <div class="col-12  col-sm-4 gallery-image no-padding" data-aos="fade-right">
+                <a href="assets/img/galerija/cocker_spaniel.jpg" class="image-popup">
+                <img src="assets/img/galerija/cocker_spaniel.jpg" alt="Cocker spaniel" class="img-fluid">
+                <div class="gallery-info">
+                    <h3>Koker Španijel</h3>
+                    <small>Poreklo - Engleska</small>
+                </div>
+             </a>
+            </div>
+            <div class="col-12  col-sm-4  gallery-image no-padding" >
+                <a href="assets/img/galerija/rottweiler.jpg" class="image-popup">
+                <img src="assets/img/galerija/rottweiler.jpg" alt="Rottweiler" class="img-fluid" >
+                <div class="gallery-info">
+                    <h3>Rotvajler</h3>
+                    <small>Poreklo - Nemačka</small>
+                </div>
+             </a>
+            </div>
+            <div class="col-12  col-sm-4   gallery-image no-padding" data-aos="fade-right" >
+                <a href="assets/img/galerija/maltese.jpg" class="image-popup">
+                <img src="assets/img/galerija/maltese.jpg" alt="Maltese" class="img-fluid">
+                <div class="gallery-info">
+                    <h3>Maltezer</h3>
+                    <small>Poreklo - nepoznato</small>
+                </div>
+             </a>
+            </div>
+			
+        </div>
+    </div> 
+
+    <!--sekcija izreke-->	 
+    <div id="citati" class="container-fluid bg-light my-5 py-5">
+        <div class="row">
+            <div class="col-12 citat text-center ">
+                <h2 class="hadding">Citati</h2>
+                <hr class="naslov-linija">
+            </div>
+            <div id="citati-tekst" class="col-12">
+                <div class="col-12 col-md-6 mx-auto d-flex qoute aktivan  justify-content-center ">
+                    <i class="fas fa-quote-right"></i>
+                    <blockquote class="text-center">Prosečan pas je bolja osoba od prosečnog čoveka. - <span class="span-color">Andrew A.Rooney</span></blockquote>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="col-12 col-md-6 mx-auto d-flex qoute justify-content-center">
+                    <i class="fas fa-quote-right"></i>
+                    <blockquote class="text-center">Što više poznajem ljude, to više cenim pse.  - <span class="span-color"> Mme de Sevigne 1670</span></blockquote>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+                <div class="col-12 col-md-6 mx-auto d-flex qoute justify-content-center">
+                    <i class="fas fa-quote-right"></i>
+                    <blockquote class="text-center">Ko voli mene - voli i mog psa.  - <span class="span-color"> Sir Thomas More 1520</span></blockquote>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+				  <div class="col-12 col-md-6 mx-auto d-flex qoute justify-content-center">
+                    <i class="fas fa-quote-right"></i>
+                    <blockquote class="text-center">Psi nisu naš ceo svet, ali čine da naš svet bude ceo.  - <span class="span-color"> Roger Caras</span></blockquote>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+				  <div class="col-12 col-md-6 mx-auto d-flex qoute justify-content-center">
+                    <i class="fas fa-quote-right"></i>
+                    <blockquote class="text-center">Ako mogu da budem upola dobra osoba koliko je moj pas, onda bih bio duplo bolji čovek.  - <span class="span-color"> Charles</span></blockquote>
+                    <i class="fas fa-quote-left"></i>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Kontakt-->
+    <div id="kontakt" class="container">
+        <div class="row">
+            <div class="col-12 text-center py-3">
+                <h2 class="hadding">Kontakt</h2>
+                <h5>Tu smo da odgovrimo na sva Vaša pitanja i zahteve!</h5>
+                <hr class="naslov-linija">
+            </div>
+            <div class="col-12 col-md-8 mx-auto">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="">Ime</label>
+                            <input type="text" class="form-control" placeholder="Unesite Vaše ime"/>
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="">Prezime</label>
+                            <input type="text" class="form-control" placeholder="Unesite Vaše prezime"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="rbPol"  value="M">
+                            <label class="form-check-label" for="">Muški</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="rbPol"  value="Ž">
+                            <label class="form-check-label" for="">Ženski</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">E-mail</label>
+                        <input type="email" class="form-control" placeholder="Unesite Vašu email adresu">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" class="form-control" placeholder="Unesite Vašu poruku, komentar, napomenu..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-form">Pošalji poruku</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+	 
+	
+    <!-- futer -->
+    <div class="container-fluid bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">&copy; Sva prava su zadržana. - 2020.</div>
+                <div class="col-12 col-md-6 footer text-right">
+				
+				 <a  href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square mr-2"></i></a>
+				 <a  href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square mr-2"></i></a>
+				 <a  href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+				
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blok back to top -->
+    <div id="back-to-top">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- AOS JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+
+    <!-- Colorbox JavaScript -->
+    <script src="assets/js/jquery.colorbox-min.js"></script>
+    <!-- Template JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

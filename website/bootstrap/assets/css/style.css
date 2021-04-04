@@ -1,0 +1,212 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+.text-orange-color{
+    color: #fa6741 !important;
+}
+nav ul li a, .predlog-info a, .nasi-predlozi a{
+    color: #fa6741 !important;
+}
+
+.navbar-brand  a{
+    font-style: italic;
+  
+}
+nav ul li a:hover, .predlog-info a:hover, .nasi-predlozi a:hover{
+    color: #333 !important;
+    text-decoration: none;
+}
+
+.bg-cover{
+    /** background: url('../img/template/cover.jpg') no-repeat; **/
+
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+} 
+#predlog-roditelj{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.predlog{
+    width: 30%;
+    background-size: cover;
+    height:450px;
+    position: relative;
+    margin-bottom:50px;
+}
+.bg-predlog-1{
+    background: url('../img/englez.jpg') no-repeat;
+    background-position: center;
+}
+.bg-predlog-2{
+    background: url('../img/mops.jpg') no-repeat;
+    background-position: center;
+}
+.bg-predlog-3{
+    background: url('../img/beagle.jpg') no-repeat;
+    background-position: center;
+}
+.predlog-info{
+    width:90%;
+    background: #fff;
+    position: absolute;
+    bottom: -80px;
+}
+.text-color-icon{
+    color: rgba(0,0,0, 0.2);
+}
+.f-size-20{
+    font-size: 20px;
+}
+.read-more{
+    background: #fa6741;
+    color: #fff;
+    text-transform: uppercase;
+    font-size:10px;
+    padding:10px 15px;
+    border-radius:5px;
+}
+.read-more:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+h3.heading {
+	text-transform:uppercase;
+}
+
+.heading-underline{
+	width: 30px;
+	height: 10px;
+	background-color:#fa6741;
+	
+}
+
+.carousel-item {
+	height:100%;
+	
+}
+.naslov-linija{
+	width: 30px !important;
+	height: 3px !important;
+	background-color:#ff4500 !important;
+}
+.footer a{
+	color: white;	
+}
+
+.footer a i:hover{
+    color: #fa6741;
+}
+
+.qoute{
+    display: none !important;
+}
+#citati-tekst .aktivan{
+    display:flex !important;
+}
+blockquote{
+    margin-left:10px;
+    margin-right:10px;
+}
+.btn-form{
+    background: #fa6741 !important;
+    border-color:#fa6741 !important;
+}
+#back-to-top i{
+    color: #fa6741;
+    font-size: 40px;
+}
+#back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+#back-to-top:hover{
+    cursor: pointer;
+}
+.line-shadow{
+    width:100%;
+    height:10px;
+    box-shadow: 0px 5px 7px rgba(0,0,0, 0.3);
+}
+.font-pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.font-size-28{
+    font-size: 28px !important;
+}
+
+.no-padding{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
+
+.gallery-image{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.gallery-image .gallery-info {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.gallery-image .gallery-info:after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    content: "";
+    background: #ff4500 !important;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .gallery-image .gallery-info:hover::after {
+    opacity: 0.5;
+  }
+.gallery-image .gallery-info h3, .gallery-image .gallery-info small {
+    transform: translateY(100%);
+    opacity: 0;
+    display: block;
+    transition: 0.5s 0.2s;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+.gallery-image .gallery-info small {
+    color: #d9d9d9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 3px;
+}
+.gallery-image:hover .gallery-info h3,
+.gallery-image:hover .gallery-info small {
+  transform: translateY(0px);
+  opacity: 1;
+}
+@media screen and (max-width:768px){
+    #predlog-roditelj{
+        flex-direction: column;
+    }
+    .predlog{
+        width:100%;
+    }
+    .predlog-info{
+        bottom: -30px;
+    }
+}
